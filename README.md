@@ -1,6 +1,22 @@
 # Semaphors_Java
-Project to implement semaphores in Java
+AUTHOR: 
+	Nikolo Sperberg and Sterling Rohlinger
 
-This program is ran from the command line, simply compile and run.  The program will promt the users for number of threads and number of bank transactions.  
-Once both numberds have been entered the program will run and print out all the transactions.  The information includes thread ID, starting balance, money being withdrawn
-or deposited, ending balance, and timestamp of transaction.  
+VERSION:
+	1.052
+
+CONTENTS: 
+	BankStuff.java
+	
+DISCRIPTION: 
+	This program prompts the user for a number of threads and transactions.
+	It then creates those threads and runs the specified ammount of transactions.
+	It utilizes semaphores to make sure that the widraws and deposits work right.
+	
+COMPILE AND RUN:
+	Java -
+	To run this program you first must compile the .java file.  
+	Use command prompt and type the following: javac *.java
+	This will compile the code.
+	To run the code use the command prompt again. Type: java BankStuf
+	
